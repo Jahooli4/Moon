@@ -19,38 +19,57 @@ header {
     margin: 0;
 }
 .logo {
-    height: 120px;
+    height: 100px;
     background: rgba(25, 25,25, 0.8);
 }
 .logo h1 {
     font-family: "Mystery Quest", serif;
     font-weight: 400;
-    font-size: 46px;
-    padding-top: 30px;
+    font-size: 2.3rem;
+    padding-top: 25px;
     color: #fafafa;
    text-align: center;
 }
 
+.logo:hover {
+    text-decoration: none;
+}
+
 .menucontainer {
     font-size: 0;
-    background-color: rgba(25, 25,25, 0.7)
+    background-color: rgb(128, 0, 128);
 }
+
+/* --------------- Nav bar ------*/
+
 
 #nav {
     margin: 0;
+    text-align: center;
+    width: 100%;
 }
 
 #nav li {
-    font-size: 20px;
+    font-size: 30px;
     padding:0;
     text-align: center;
     
 }
 
+#nav li:hover {
+    background-color: rgb(72, 7, 72);
+}
+
+#nav li a:active {
+    border: solid 1px rgb(72, 7, 72);
+}
+
 .menuitem {
-    height: 120px;
+    height: 100px;
     text-align: center;
     padding: 0;
+    width: 33%;
+    margin: 0;
 }
 
 .menuitem a {
@@ -63,17 +82,113 @@ header {
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 35px;
     text-align: center;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1.3rem;
     letter-spacing: 2px;
-    
 }
 
 .list-inline {
     list-style: none;
 }
-/* --------------- Hover.css ------*/
 
+
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+
+
+/* --------------- Photo gallery ------*/
+section {
+    margin-top: 30px;
+}
+.gallery {
+    background: url(../images/redmoon-heroimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+    
+}
+
+.gallery-container {
+    width: 90%;
+    margin: auto;
+}
+
+/* --------------- Moon images with info behind ------*/
+.moon-container {
+    width: 90%;
+    margin: auto;
+}
+
+.whole-moon {
+    background: url(../images/wholemoon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 20px;
+    min-height: 250pxt;
+    border-radius: 50%;
+}
+
+
+
+.half-moon {
+    background: url(../images/halfmoon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 20px;
+    min-height: 250px;
+    border-radius: 50%;
+}
+    
+
+
+/* --------------- Footer ------*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.list-inline-item {
+    padding: 10px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0 12px;
+    border-radius: 25%;
+    font-size: 14px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: purple
+}
+#footer-details {
+    padding: 20px;
+} 
 
