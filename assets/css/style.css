@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap:400')
+
+
+
+/* --------------- Breakpoints ------*/
+
 
 
 /* --------------- Colours ------*/
-
-.ui-menu-color-home {
-    background-color: purple;
-}
 
 body {
     background-color: 
 }
 
+
+  
 
 
 /* --------------- Heading ------*/
@@ -23,20 +25,31 @@ header {
 
 .nav-bar {
     padding: 20px;
+   
 }
 
 .logo {
-    border-radius: 10px;
+    align-self: center;
 }
 .logo h1 {
-    font-family: "Mystery Quest", serif;
+    font-family: "Acme", sans-serif;
     font-weight: 400;
-    font-size: 2.3rem;
-    padding-top: 15px;
+    font-style: normal
+    font-size: 2.4rem;
     color: #525252;
     text-align: center;
-    
-   
+    letter-spacing: .1rem;
+}
+
+@media (max-width: 1100px) {
+    .logo h1 {
+        font-size: 2.15rem;
+    }
+}
+
+.logo h1:hover {
+    color: #fafafa;
+    text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
 }
 
 .logo:hover {
@@ -49,6 +62,7 @@ header {
     font-size: 0;
     background-color: rgb(128, 0, 128);
     border-radius: 10px;
+    align-self: center;
 }
 
 #nav {
@@ -62,20 +76,22 @@ header {
     background: rgb(182, 116, 182);
 }
 
+#nav .active a span:hover {
+    background: rgb(182, 116, 182);
+}
+
 #nav li {
     font-size: 30px;
-    padding:0;
     text-align: center;
+    height: 50px;
     
 }
 
-#nav li:hover {
+#nav li a span:hover {
     background-color: rgb(72, 7, 72);
 }
 
-#nav li a:active {
-    border: solid 1px rgb(72, 7, 72);
-}
+
 
 .menuitem {
     
@@ -95,7 +111,6 @@ header {
 .menuitem span {
     display: block;
     width: 100%;
-    padding: 20px;
     text-align: center;
     font-weight: 300;
     font-size: 1.3rem;
@@ -138,21 +153,81 @@ section {
 
 .carousel-inner {
     max-height: 500px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 
-/* --------------- Moon images with info behind ------*/
+
+
+/* --------------- Moon flip cards ------*/
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: auto;
+    height: 100%;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    border-radius: 50%;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 50%;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 50%;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(72, 7, 72);
+    color: white;
+    transform: rotateY(180deg);
+    align-content: space-around;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .flip-card-back p {
+    font-size: .9rem;
+  }
+
 .moon-container {
     width: 90%;
     margin: 40px auto 40px auto;
 
-}
+} 
 
 .moon-container-item {
-    padding: 20px;
+    padding: 15px;
+    
 }
-
+/*
 .whole-moon {
     background: url(../images/wholemoon.jpg);
 }
@@ -167,26 +242,116 @@ section {
 
 .crescent-moon {
     background: url(../images/crescentmoon.jpg);
-}
-    
+}*/
+
 .whole-moon, .waxing-moon, .half-moon, .crescent-moon {
+    overflow: hidden;
+    width: auto;
+    aspect-ratio: 1;
+}
+
+/* --------------- About page ------*/
+
+.fact-container {
+    width: 80%;
+    margin: 20px auto 20px auto;
+}
+
+.fact-inner {
+    min-height: 300px;
+    padding: 30px;
+    background-color: rgba(128, 0, 128, 0.5);
+    border-radius: 15px;
+}
+
+.fact-inner p {
+ text-align: justify;
+}
+
+.fact-2, .fact-4 {
+    text-align: right;
+}
+
+
+.fact-1-image-container, .fact-2-image-container, .fact-3-image-container, .fact-4-image-container, .fact-5-image-container {
+    align-content: space-around;
+}
+
+
+.fact-1-image {
+    background: url(../images/fact-1-image.jpeg);
+}
+
+.fact-2-image {
+    background: url(../images/fact-2-image.jpeg);
+}
+
+.fact-3-image {
+    background: url(../images/fact-3-image.jpeg);
+}
+
+.fact-4-image {
+    background: url(../images/fact-4-image.jpeg);
+}
+
+.fact-5-image {
+    background: url(../images/fact-5-image.jpeg);
+}
+
+.fact-1-image, .fact-2-image, .fact-3-image, .fact-4-image, .fact-5-image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     width: auto;
-    height: 100%;
     aspect-ratio: 1;
-    border-radius: 50%;
+    margin: 15px;
 }
 
-/* --------------- Form ------*/
+/* --------------- Sign up Form ------*/
 
 .sign-up-form {
     width: 60%;
     margin: auto;
     background-color: rgba(128, 0, 128, 0.5);
     padding: 15px;
+    border-radius: 15px;
+}
+
+.form-title, .form-info {
+    text-align: center;
+
+}
+
+.form-button {
+    background-color: (72, 7, 72);
+    border: white solid 1px;
+    margin: 10px;
+
+
+}
+
+/* --------------- Success page ------*/
+
+.success-message {
+    background-color: #1b1b1b;
+    color:#fafafa;
+    margin: auto;
+    min-height: 350px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 15px;
+
+}
+
+.moon-illustration-image {
+    background: url(../images/planets-illustration.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    aspect-ratio: 1;
+    margin: 50px;
 }
 
 /* --------------- Footer ------*/
