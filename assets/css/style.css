@@ -130,7 +130,7 @@ header {
 
 
 
-/* --------------- Photo gallery ------*/
+/* --------------- Hero Carousel ------*/
 section {
     margin-top: 20px;
 }
@@ -148,14 +148,35 @@ section {
 .carousel-container {
     width: 90%;
     margin: auto;
-   
-}
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
 
 .carousel-inner {
     max-height: 500px;
     border-radius: 15px;
+    position: relative;
 }
 
+/* --------------- Carousel Welcome Text ------*/
+
+.welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(182, 116, 182, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .welcome-text a {
+    text-decoration: none;
+    color: rgb(72, 7, 72);
+
+  }
 
 
 
