@@ -24,7 +24,7 @@ header {
 }
 
 .nav-bar {
-    padding: 20px;
+    padding: 10px;
    
 }
 
@@ -286,8 +286,21 @@ section {
 
 /* --------------- About page ------*/
 
+
+.about-title {
+    background-color:rgba(72, 7, 72, 0.8);
+    padding: 10px 0 10px 0;
+    color:#fafafa;
+    margin: auto;
+    min-height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    width:90%;
+}
+
+
 .fact-container {
-    width: 80%;
+    width: 90%;
     margin: 20px auto 20px auto;
 }
 
@@ -392,13 +405,12 @@ section {
 
 footer {
     color: purple;
-    min-height: 120px;
     margin: 0;
-    
+    background-color:rgb(182, 116, 182);
 }
 
 .copyright {
-    padding-top: 20px;
+    margin: auto;
 }
 
 .list-inline-item {
@@ -406,8 +418,9 @@ footer {
 }
 
 .social-links {
-    padding-bottom: 15px;
     text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 .social-links li a i {
@@ -420,16 +433,10 @@ footer {
     text-align: center;
     color: #fafafa;
     background: purple;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background-color: purple
+    background-color:rgb(72, 7, 72)
 }
-#footer-details {
-    padding: 20px;
-} 
+
 
