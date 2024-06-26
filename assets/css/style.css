@@ -8,7 +8,9 @@
 /* --------------- Colours ------*/
 
 body {
-    background-color: 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -18,14 +20,9 @@ body {
 /* --------------- Heading ------*/
 
 header {
-    margin: auto;
+    margin: 10px auto 10px auto;
     width: 90%;
     
-}
-
-.nav-bar {
-    padding: 10px;
-   
 }
 
 .logo {
@@ -47,6 +44,12 @@ header {
     }
 }
 
+@media (max-width: 965px) {
+    .logo h1 {
+        font-size: 1.9rem;
+    }
+}
+
 .logo h1:hover {
     color: #fafafa;
     text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
@@ -57,6 +60,10 @@ header {
 }
 /* --------------- Nav bar ------*/
 
+.nav-bar {
+    padding: 10px;
+   
+}
 
 .menucontainer {
     font-size: 0;
@@ -405,7 +412,7 @@ section {
 
 footer {
     color: purple;
-    margin: 0;
+    margin-top: auto;
     background-color:rgb(182, 116, 182);
 
 }
@@ -413,6 +420,7 @@ footer {
 .copyright {
     margin: auto;
     text-align: center;
+    padding-top:10px;
 }
 
 @media (min-width: 575px) {
