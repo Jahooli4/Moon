@@ -164,7 +164,7 @@ section {
 
 .welcome-text {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(182, 116, 182, 0.7);
@@ -178,7 +178,20 @@ section {
 
   }
 
+  @media (max-width: 780px) {
+    .welcome-text h2 {
+        font-size: 1.2rem;
+    }
+}
 
+@media (max-width: 370px) {
+    .welcome-text h2 {
+        font-size: 1rem;
+    }
+    .welcome-text p {
+        font-size: .8rem;
+    }
+}
 
 /* --------------- Moon flip cards ------*/
 
