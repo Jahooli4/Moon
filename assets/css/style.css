@@ -137,16 +137,6 @@ header {
 section {
     margin-top: 20px;
 }
-/*-----
-.gallery {
-    background: url(../images/redmoon-heroimage.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 550px;
-    
-}
-    ---*/
 
 .carousel-container {
     width: 90%;
@@ -162,6 +152,8 @@ section {
     border-radius: 15px;
     position: relative;
 }
+
+
 
 /* --------------- Carousel Welcome Text ------*/
 
@@ -363,12 +355,24 @@ section {
 
 /* --------------- Sign up Form ------*/
 
+.sign-up-form-container {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
 .sign-up-form {
-    width: 60%;
+    width: 100%;
     margin: auto;
-    background-color: rgba(128, 0, 128, 0.5);
-    padding: 15px;
+    padding: 20px;
+    background-color:rgb(72, 7, 72);
     border-radius: 15px;
+    
+}
+
+.sign-up-form * {
+    padding: 10px;
 }
 
 .form-title, .form-info {
@@ -380,9 +384,34 @@ section {
     background-color: (72, 7, 72);
     border: white solid 1px;
     margin: 10px;
+}
 
+
+
+/* --------------- Moon phase widget ------*/
+
+.sign-up-page-content {
+    width: 90%;
+    margin:auto;
+    color: #fafafa;
+    background-color: rgba(128, 0, 128, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.moon-phase-widget-container {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  margin: auto;
 
 }
+
+.moon-phase-widget {
+   padding:10px;
+}
+
+
 
 /* --------------- Success page ------*/
 
