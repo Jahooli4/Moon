@@ -368,11 +368,24 @@ section {
     padding: 20px;
     background-color:rgb(72, 7, 72);
     border-radius: 15px;
+    text-align: center;
     
 }
+.radio-check-boxes {
+    display: grid;
+    align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+}
 
-.sign-up-form * {
-    padding: 10px;
+.drop-down-menu {
+    margin: 10px;
+    padding: 5px;
+}
+
+.form-check {
+    text-align: left;
 }
 
 .form-title, .form-info {
@@ -380,10 +393,14 @@ section {
 
 }
 
+.email-text-box {
+    padding: 10px;
+}
+
 .form-button {
-    background-color: (72, 7, 72);
-    border: white solid 1px;
+    background-color:rgb(182, 116, 182);
     margin: 10px;
+    color: #fafafa;
 }
 
 
