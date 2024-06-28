@@ -403,13 +403,15 @@ section {
     color: #fafafa;
 }
 
-
+.sign-up-columns {
+    align-self: center;
+}
 
 /* --------------- Moon phase widget ------*/
 
 .sign-up-page-content {
     width: 90%;
-    margin:auto;
+    margin:auto auto 10px auto;
     color: #fafafa;
     background-color: rgba(128, 0, 128, 0.5);
     padding: 15px;
@@ -421,11 +423,12 @@ section {
     align-items: center;
   justify-content: center;
   margin: auto;
+  
 
 }
 
 .moon-phase-widget {
-   padding:10px;
+   padding:20px;
 }
 
 
