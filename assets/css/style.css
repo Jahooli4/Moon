@@ -324,37 +324,41 @@ section {
 
 
 .fact-1-image-container, .fact-2-image-container, .fact-3-image-container, .fact-4-image-container, .fact-5-image-container {
-    align-content: space-around;
+    align-content: center;
+    padding: 20px;
+
 }
 
 
-.fact-1-image {
-    background: url(../images/fact-1-image.jpeg);
+.fact-1-image-stars {
+    background: url(../images/stars-illustration.jpeg);
 }
 
-.fact-2-image {
-    background: url(../images/fact-2-image.jpeg);
+.fact-2-image-crescent {
+    background: url(../images/crescent-illustration.jpeg);
 }
 
-.fact-3-image {
-    background: url(../images/fact-3-image.jpeg);
+.fact-3-image-saturn {
+    background: url(../images/saturn-illustration.jpeg);
 }
 
-.fact-4-image {
-    background: url(../images/fact-4-image.jpeg);
+.fact-4-image-stars2 {
+    background: url(../images/stars-2-illustration.jpeg);
 }
 
-.fact-5-image {
-    background: url(../images/fact-5-image.jpeg);
+.fact-5-image-sun {
+    background: url(../images/sun-illustration.jpeg);
 }
 
-.fact-1-image, .fact-2-image, .fact-3-image, .fact-4-image, .fact-5-image {
+.fact-1-image-stars, .fact-2-image-crescent, .fact-3-image-saturn, .fact-4-image-stars2, .fact-5-image-sun {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
+    width: 80%;
+    height: auto;
     aspect-ratio: 1;
-    margin: 15px;
+    align-items: center;
+    margin: auto;
 }
 
 /* --------------- Sign up Form ------*/
