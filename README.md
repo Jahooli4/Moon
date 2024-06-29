@@ -4,7 +4,7 @@
 
 The Moon Society is a site that provides facts about the moon presented in a fun way. The site is aimed at users who wish to find out information about the moon, particularly it's different phases and why we see them. Users also have the opption to sign up to an email newsletter that sends out the current phase of the moon to their inbox, this way they can stay up to date on the moon in all weather condtions.
 
-![am I responsive screenshot](assets/images/readme:amiresponsive.png)
+![am I responsive screenshot](assets/images/readme-images/readme:amiresponsive.png)
 
 ## User Experience (UX)
 
@@ -56,9 +56,9 @@ Sign Up
 
 ### Wire frames:
   Home page wireframes:
-  ![Home wireframe](assets/images/home-wireframe.png)
-  ![About wireframe](assets/images/about-wireframe.png)
-  ![Sign Up wireframe](assets/images/signup-wireframe.png)
+  ![Home wireframe](assets/images/readme-images/home-wireframe.png)
+  ![About wireframe](assets/images/readme-images/about-wireframe.png)
+  ![Sign Up wireframe](assets/images/readme-images/signup-wireframe.png)
 
 The site has been designed to be as user friendly as possible, utilising a classic layout style with navigation bar and logo at the top, content inbetween, and footer with external social media links at the bottom. The layout has been made as consistent as possible across all devices, with elements only rearranging to provide optimised viewing.
 
@@ -71,7 +71,31 @@ The site has been designed to be as user friendly as possible, utilising a class
   > - `rgb(72, 7, 72)` Darker purple
   > - `#1b1b1b` Charcoal/Black
 
-  
+  **Font:**
+  I opted for Roboto for the main body of my site and just used Acme for the logo to provide a contrast. I like the sort of bubbl;e effect of Acme and thought the soft roundness of it lended itself well to the moon theme.
+
+  ## Features
+>- ### index.html
+#### Navigation bar: 
+
+![Nav bar and logo](assets/images/readme-images/nav-bar-screenshot.png)
+The nav bar and logo were created using bootstrap columns and inline list items. I have styled them with hover pseudo classes so the user can tell they are active links. The menu item tab also changes colour depending on which page is active so the user knows which they are currently on.
+
+#### Hero section:
+
+![Hero section](assets/images/readme-images/hero-section-screenshot.png)
+For the hero image section I decided to use an image carousel that slides through 3 different images on a timer. I have also included indicators so the user may switch between the images at will without having to wait for the timer to change. I have also added a welcome message that gives the user an idea of what the website is about. Underneath the welcome message is an invitation and link to the sign up page to fast track users in the direction. 
+
+On small devices and below I decided the inclusion of the sign up message made the hero section look too cluttered so set the display to 'none' at sm and smaller.
+![Hero section on smaller devices](assets/images/readme-images/hero-section-mobile.png)
+
+
+
+
+
+
+
+
 
 
 
