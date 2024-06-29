@@ -10,20 +10,20 @@ The Moon Society is a site that provides facts about the moon presented in a fun
 
  ### **User stories:**
 
-#### User
+### User
   > - As a user I want to be able to navigate the site easily and access the navigation menu from all pages.
   > - As a user I want to be able to find out information about the moon.
   > - As a user I want to be able to understand why we see different phases of the moon.
   > - As a user I want to be able to see the current phase of the moon.
   > - As a user I want to be able to subscribe to receive updates of the moon's current phase to my email inbox.
 
-#### Website Owner
+### Website Owner
   > - As the site owner I want to provide information for my users in a fun and interesting way.
   > - As the site owner I want to provide a daily updated moon phase calendar for my users.
   > - As the site owner I want to create leads and provide users with a link to find out more information about the moon.
   > - As the site owner I want to use this website to provide users with a subscription service to receive moon phase updates.
 
-#### Scope Plane
+### Scope Plane
   > - The website should have a Navigation menu that is consistent across all pages and devices and clearly illustrates which page the user is currently on.
   > - The website should have a welcome message for the user that concisely describes the purpose of the site.
   > - The website should display facts about the moon in a visually stimulating way.
@@ -31,7 +31,7 @@ The Moon Society is a site that provides facts about the moon presented in a fun
   > - The website should give the user a way to sign up to receive moon phase updates as often as they choose.
   > - The website should give the user a link to further reading about the moon.
 
-#### Structure Plane
+### Structure Plane
 Home
 > - Site logo
 > - Navigation bar with links
@@ -54,11 +54,24 @@ Sign Up
 > - The form should include an option for the user to select whether they are in the Northerm or Southern hemisphere
 > - The sign up pages should include a card that updates daily with the current moon phase
 
-#### Wire frames:
+### Wire frames:
   Home page wireframes:
   ![Home wireframe](assets/images/home-wireframe.png)
   ![About wireframe](assets/images/about-wireframe.png)
   ![Sign Up wireframe](assets/images/signup-wireframe.png)
+
+The site has been designed to be as user friendly as possible, utilising a classic layout style with navigation bar and logo at the top, content inbetween, and footer with external social media links at the bottom. The layout has been made as consistent as possible across all devices, with elements only rearranging to provide optimised viewing.
+
+  ### Surface plane
+
+  **Color:**
+  After exploring other space themed sites that already exist on the Web and finding most of them follow a black and white color scheme, I decided I wanted my site to have a pop of colour and have a slightly more mystical feel to it. I decided to opt for a purple palette to match one of my hero photos sunset tones.
+  > - `#fafafa` White
+  > - `rgb(128, 0, 128)` Purple
+  > - `rgb(72, 7, 72)` Darker purple
+  > - `#1b1b1b` Charcoal/Black
+
+  
 
 
 
