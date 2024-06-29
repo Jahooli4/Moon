@@ -54,8 +54,11 @@ Sign Up
 > - The form should include an option for the user to select whether they are in the Northerm or Southern hemisphere
 > - The sign up pages should include a card that updates daily with the current moon phase
 
-
-
+#### Wire frames:
+  Home page wireframes:
+  ![Home wireframe](assets/images/home-wireframe.png)
+  ![About wireframe](assets/images/about-wireframe.png)
+  ![Sign Up wireframe](assets/images/signup-wireframe.png)
 
 
 
