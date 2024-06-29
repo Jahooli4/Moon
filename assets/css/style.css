@@ -353,6 +353,14 @@ section {
     margin: auto;
 }
 
+.further-reading-nasa {
+    text-align: center;
+}
+
+
+.further-reading-nasa a:hover {
+    color: rgb(72, 7, 72);
+}
 /* --------------- Sign up Form ------*/
 
 .sign-up-form-container {
