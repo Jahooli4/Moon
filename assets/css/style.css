@@ -403,9 +403,6 @@ section {
     color: #fafafa;
 }
 
-.sign-up-columns {
-    align-self: center;
-}
 
 /* --------------- Moon phase widget ------*/
 
@@ -423,6 +420,7 @@ section {
     align-items: center;
   justify-content: center;
   margin: auto;
+  min-width: 250px;
   
 
 }
@@ -430,7 +428,6 @@ section {
 .moon-phase-widget {
    padding:20px;
 }
-
 
 
 /* --------------- Success page ------*/
