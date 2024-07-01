@@ -146,6 +146,7 @@ To let the user know they have successfully submitted their information via the 
 
 ## Testing
 
+### User testing
 | Feature being tested:| Steps                                | Expected outcome  | Pass/Fail |
 |:---------------------|:-------------------------------------|:------------------|-----|
 | Navigation - Nav bar | Click each menu bar item (Home, About + contact)| Each Menu item should navigate to the relevant page and change colour when on that page.             | PASS |
@@ -162,5 +163,21 @@ To let the user know they have successfully submitted their information via the 
 | Form - Drop down | Attempt to submit form with selecting a hemisphere | Error message should display | PASS |
 | Form - Submit | Enter email, select drop down option and press submit. | Form should submit and success message page should load. | PASS |
 | Success page - UX | Read through success message. | Text should be easily readable and aligned with the image below. | PASS | 
+| Responsiveness - UX | Resize site for all device sizes. | Check that images/text/other elements resize as expected, text should be readable and elements should all be visible and not overlap randomly. Repeat for every page. | PASS|
 
+
+### User testing Challenge
+
+I sent my website to 5 users and asked them to complete the following tasks:
+
+| Test |	Answered correctly: |
+|:-----|:---------|
+|Upon arrival to website where on the home page is there information? (answer: behund the moon flip cards) | 5/5 |
+|Please navigate to the instagram social |	5/5 |
+|Please fill in the sign up form |	5/5 |
+|Is the moon visible during the day? | 5/5 |
+
+
+
+### Lighthouse testing
 
