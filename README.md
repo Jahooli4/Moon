@@ -218,3 +218,20 @@ I sent my website to 5 users and asked them to complete the following tasks:
 ![screenshot of welcome text overlay bug](assets/images/readme-images/bug-screenshot-welcome.png)
 ![screenshot of welcome text overlay bug fixed](assets/images/readme-images/bug-screenshot-welcome-fixed.png)
 
+## Deployment
+
+The steps to deploy the project are as follows:
+
+1. Clicked on Settings on the navigation menu in the repository
+2. I then selected the Pages menu on the side bar.
+3. In the first dropdown menu labeled Source I selected the branch of the name 'main' from the dropdown.
+4. In the next dropdown menu I left '/root' as the default option.
+5. Selected Save
+6. After 2-3 minute my project was now live
+
+![screenshot of correct settings on Github](assets/images/readme-images/deployment-screenshot.png)
+
+7. Should you wish to add your own custom domain name you would have to purchase one with an external provider and enter it in the box towards the bottom of the page above.
+
+Link to finished site: [The MoonSociety](https://jahooli4.github.io/Moon/)
+
