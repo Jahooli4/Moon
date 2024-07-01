@@ -74,7 +74,7 @@ The site has been designed to be as user friendly as possible, utilising a class
   **Font:**
   I opted for Roboto for the main body of my site and just used Acme for the logo to provide a contrast. I like the sort of bubbl;e effect of Acme and thought the soft roundness of it lended itself well to the moon theme.
 
-  ## Features
+  ## Existing Features
 >- ### index.html
    #### Navigation bar: 
 
@@ -120,3 +120,14 @@ To give the user an example of what they are signing to up for I decided to incl
 
 ![Success page](assets/images/readme-images/success-page-screenshot.png)
 To let the user know they have successfully submitted their information via the sign up form I opted to create an extra page with a success message. I also added a space illustration to add a fun visual element, this ties in nicely with the ones on my about page which I think makes it nice and cohesive.
+
+## Future Features
+### Home page
+> - I would like to include an interactive map of the night sky that would show the users the moon and constellations above them where they are. 
+### About page
+> - A potential feature to add to the about page could be a search box in which users could type any questions they may have and the answer would be presented to them. This would be a good upgrade compared tp having to scroll down the page to find info they may be looking for.
+### Sign up page
+> - The first priority would be to get the back end up and running for my sign up form so users actually receive the moon phase emails they are signing up to.
+### Additional pages
+> - In the future I would plan to add a moon calendar page that shows a monthly view of the moons phases. Users would be able to select the days to see more in depth info about that day's moon.
+> - I would also like to add a page about full moons and the different names they have depending on the month.
