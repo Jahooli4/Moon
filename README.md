@@ -179,5 +179,26 @@ I sent my website to 5 users and asked them to complete the following tasks:
 
 
 
-### Lighthouse testing
+### Lighthouse testing:
 
+![Lighthouse testing screenshot for home.html](assets/images/readme-images/lighthouse-home.png)
+
+![Lighthouse testing screenshot for about.html](assets/images/readme-images/lighthouse-about.png)
+
+![Lighthouse testing screenshot for signup.html](assets/images/readme-images/lighthouse-signup.png)
+
+![Lighthouse testing screenshot for success.html](assets/images/readme-images/lighthouse-success.png)
+
+### HTML validation
+
+![HTML validation screenshot for home.html](assets/images/readme-images/html-validation-home.png)
+
+![HTML validation screenshot for about.html](assets/images/readme-images/html-validation-about.png)
+
+![HTML validation screenshot for signup.html](assets/images/readme-images/html-validation-signup.png)
+
+![HTML validation screenshot for success.html](assets/images/readme-images/html-validation-success.png)
+
+### CSS validation
+
+![CSS validation screenshot](assets/images/readme-images/css-validation.png)
