@@ -202,3 +202,19 @@ I sent my website to 5 users and asked them to complete the following tasks:
 ### CSS validation
 
 ![CSS validation screenshot](assets/images/readme-images/css-validation.png)
+
+## Bugs
+
+> - Image carousel indicators would not work. The carousel would change images automatically on the time it was set but would not alllow manual override. 
+> - I fixed this by re checking the div container classes with the source of the code and realised they didn' match up.
+![screenshot of indicator bug](assets/images/readme-images/bug-screenshot-indicators.png)
+
+> - Moon image for flip cards would not display. Also had a black square around the card.
+> - I fixed this by adding `aspect-ratio: 1;` and `overflow;hidden;` to both the front and back of the flip cards in css.
+![screenshot of flip card bug](assets/images/readme-images/bug-screenshot-flipcard.png)
+
+> - Welcome text overlay was much too big for the carousel on sm and xs screen size but fine on md and bigger.
+> - I fixed this by adding the bootstrap `<class="d-none d-sm-none d-md-block">` to the html. I didn't want to make the font size any smaller so instead this ensures the last sentence doesn't display on xs and sm screen sizes so the message fits in place.
+![screenshot of welcome text overlay bug](assets/images/readme-images/bug-screenshot-welcome.png)
+![screenshot of welcome text overlay bug fixed](assets/images/readme-images/bug-screenshot-welcome-fixed.png)
+
