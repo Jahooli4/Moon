@@ -146,3 +146,21 @@ To let the user know they have successfully submitted their information via the 
 
 ## Testing
 
+| Feature being tested:| Steps                                | Expected outcome  | Pass/Fail |
+|:---------------------|:-------------------------------------|:------------------|-----|
+| Navigation - Nav bar | Click each menu bar item (Home, About + contact)| Each Menu item should navigate to the relevant page and change colour when on that page.             | PASS |
+| Logo - home link    | Click the logo on every page. | The logo should link the user back to the homepage, should be active on every page. | PASS             |
+| Home page - Image carousel indicators | Click each indicator | Each indicator should take you to a different image. | PASS |
+| Home page - sign up link in the welcme message. | Click 'here' | The link should take you to the sign up page. | PASS |
+| Home page - Moon flip cards | Hover mouse over moon images/Tap on mobile device. | Moon images should flip 180 degrees to reveal text behind | PASS |
+| Home page - UX | Read through welcome text and flip card text. | Text should all be clear and easily readable. | PASS|
+| Footer - Social media icons | Click each one, test on each page. | Each link should change colour when hovered pover and open in a new tab when clicked. | PASS |
+|About page - UX | Scroll through page ensuring text is displayed correctly. | Text should be clear and easy to read with images remaining in correct position. | PASS |
+| About poge - NASA link | Click 'here' link | Link to the NASA moon page should open in a new tab. | PASS| 
+| Form - Email input | Attempt to submit form with eamil box blank | Error message should display and form not submit. | PASS |
+| Form - Email | Attempt to submit form with text in the email box | Form should display error message and not submit | PASS |
+| Form - Drop down | Attempt to submit form with selecting a hemisphere | Error message should display | PASS |
+| Form - Submit | Enter email, select drop down option and press submit. | Form should submit and success message page should load. | PASS |
+| Success page - UX | Read through success message. | Text should be easily readable and aligned with the image below. | PASS | 
+
+
