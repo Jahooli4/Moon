@@ -86,8 +86,24 @@ The nav bar and logo were created using bootstrap columns and inline list items.
 ![Hero section](assets/images/readme-images/hero-section-screenshot.png)
 For the hero image section I decided to use an image carousel that slides through 3 different images on a timer. I have also included indicators so the user may switch between the images at will without having to wait for the timer to change. I have also added a welcome message that gives the user an idea of what the website is about. Underneath the welcome message is an invitation and link to the sign up page to fast track users in the direction. 
 
-On small devices and below I decided the inclusion of the sign up message made the hero section look too cluttered so set the display to 'none' at sm and smaller.
 ![Hero section on smaller devices](assets/images/readme-images/hero-section-mobile.png)
+On small devices and below I decided the inclusion of the sign up message made the hero section look too cluttered so set the display to 'none' at sm and smaller.
+
+#### Flip card section: 
+
+![Flip cards screenshot](assets/images/readme-images/flipcard-screenshot.png) 
+It made sense to include a few initial facts on the home page to make it clear to the user the purpose of the site. To avoid the page looking boring and full of text I decided to conceal these behind flip card images that flip and reaveal the facts when hovered over. This adds an interactive element which keeps the user intested and engaged.
+
+#### Footer section:
+
+The footer has been designed in a minimalistic way as the only information In felt relevant to include here are the social media icon links. These have been styled to change colour when hovered over to make it clear to the user they are active links. The links open in a new page so users don't get taken away from my site.
+
+### About.html
+
+![About page screenshot](assets/images/readme-images/about-screenshot.png)
+The about page is the main information source of the site. Here I have compiled a list of FAQ's about the moon. I decided to give the text containers lilac backgrounds to add a pop of colour and added space themed illustrations alongside to add an element of visual interest.
+
+
 
 
 
