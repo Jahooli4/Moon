@@ -131,3 +131,18 @@ To let the user know they have successfully submitted their information via the 
 ### Additional pages
 > - In the future I would plan to add a moon calendar page that shows a monthly view of the moons phases. Users would be able to select the days to see more in depth info about that day's moon.
 > - I would also like to add a page about full moons and the different names they have depending on the month.
+
+## Languages used
+
+> - HTML5
+> - CSS3
+
+## Technologies used
+> - Google Fonts: The font 'Roboto' was used for the main body of the site. The font 'Acme' was used for the Logo.
+> - Font Awesome: was used to import icons into the footer for the social media links.
+> - Git: I used Gitpod as a code space to create the site from which I pushed my site to Github for deployment.
+> - GitHub: I used GitHub as the respository for the projects code after being pushed from Gitpod.
+> - Balsamiq: I used Balsamiq to create wireframes to outline to design of the site.
+
+## Testing
+
