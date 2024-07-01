@@ -1,11 +1,4 @@
-
-
-
-/* --------------- Breakpoints ------*/
-
-
-
-/* --------------- Colours ------*/
+/* --------------- Body ------*/
 
 body {
     min-height: 100vh;
@@ -15,25 +8,22 @@ body {
 }
 
 
-  
-
-
 /* --------------- Heading ------*/
 
 header {
     margin: 10px auto 10px auto;
     width: 90%;
-    
+
 }
 
 .logo {
     align-self: center;
 }
+
 .logo h1 {
     font-family: "Acme", sans-serif;
     font-weight: 400;
-    font-style: normal
-    font-size: 2.4rem;
+    font-style: normal font-size: 2.4rem;
     color: #525252;
     text-align: center;
     letter-spacing: .1rem;
@@ -43,7 +33,7 @@ header {
     .logo h1 {
         font-size: 2.15rem;
     }
-} 
+}
 
 
 
@@ -55,11 +45,12 @@ header {
 .logo:hover {
     text-decoration: none;
 }
+
 /* --------------- Nav bar ------*/
 
 .nav-bar {
     padding: 10px;
-   
+
 }
 
 .menucontainer {
@@ -76,7 +67,7 @@ header {
 }
 
 #nav .active a span {
-    color: rgb(72, 7, 72) ;
+    color: rgb(72, 7, 72);
     background: rgb(226, 142, 226);
 }
 
@@ -88,7 +79,7 @@ header {
     font-size: 30px;
     text-align: center;
     height: 50px;
-    
+
 }
 
 #nav li a span:hover {
@@ -98,7 +89,7 @@ header {
 
 
 .menuitem {
-    
+
     text-align: center;
     padding: 0;
     width: 33%;
@@ -112,6 +103,7 @@ header {
     text-align: center;
 
 }
+
 .menuitem span {
     display: block;
     width: 100%;
@@ -145,7 +137,7 @@ section {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
 
 
 .carousel-inner {
@@ -166,15 +158,17 @@ section {
     background-color: rgba(182, 116, 182, 0.7);
     padding: 15px;
     border-radius: 15px;
-  }
+}
 
-  .welcome-text a {
+.welcome-text a {
     text-decoration: none;
     color: rgb(72, 7, 72);
 
-  }
+}
 
-  @media (max-width: 780px) {
+/* --------------- Media queries to resize logo text so it doesnt overlap with nav bar. ------*/
+
+@media (max-width: 780px) {
     .welcome-text h2 {
         font-size: 1.2rem;
     }
@@ -184,6 +178,7 @@ section {
     .welcome-text h2 {
         font-size: 1rem;
     }
+
     .welcome-text p {
         font-size: .8rem;
     }
@@ -192,17 +187,17 @@ section {
 /* --------------- Moon flip cards ------*/
 
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* The flip card container */
 .flip-card {
     background-color: transparent;
     width: auto;
     height: 100%;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px;
     border-radius: 50%;
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -210,71 +205,60 @@ section {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     border-radius: 50%;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
+}
+
+/* Do a horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden;
+    /* Safari */
     backface-visibility: hidden;
     border-radius: 50%;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
     background-color: #bbb;
     color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
+}
+
+/* Style the back side */
+.flip-card-back {
     background-color: rgb(72, 7, 72);
     color: white;
     transform: rotateY(180deg);
     align-content: space-around;
     padding-right: 20px;
     padding-left: 20px;
-  }
+}
 
-  .flip-card-back p {
+.flip-card-back p {
     font-size: .9rem;
-  }
+}
 
 .moon-container {
     width: 90%;
     margin: 40px auto 40px auto;
 
-} 
+}
 
 .moon-container-item {
     padding: 15px;
-    
-}
-/*
-.whole-moon {
-    background: url(../images/wholemoon.jpg);
+
 }
 
-.waxing-moon {
-    background: url(../images/waxingmoon.jpg);
-}
-
-.half-moon {
-    background: url(../images/halfmoon.jpg);
-}
-
+.whole-moon,
+.waxing-moon,
+.half-moon,
 .crescent-moon {
-    background: url(../images/crescentmoon.jpg);
-}*/
-
-.whole-moon, .waxing-moon, .half-moon, .crescent-moon {
     overflow: hidden;
     width: auto;
     aspect-ratio: 1;
@@ -284,14 +268,14 @@ section {
 
 
 .about-title {
-    background-color:rgba(72, 7, 72, 0.8);
+    background-color: rgba(72, 7, 72, 0.8);
     padding: 10px 0 10px 0;
-    color:#fafafa;
+    color: #fafafa;
     margin: auto;
     min-height: 50px;
     text-align: center;
     border-radius: 15px;
-    width:90%;
+    width: 90%;
 }
 
 
@@ -308,15 +292,20 @@ section {
 }
 
 .fact-inner p {
- text-align: justify;
+    text-align: justify;
 }
 
-.fact-2, .fact-4 {
+.fact-2,
+.fact-4 {
     text-align: right;
 }
 
 
-.fact-1-image-container, .fact-2-image-container, .fact-3-image-container, .fact-4-image-container, .fact-5-image-container {
+.fact-1-image-container,
+.fact-2-image-container,
+.fact-3-image-container,
+.fact-4-image-container,
+.fact-5-image-container {
     align-content: center;
     padding: 20px;
 
@@ -343,7 +332,11 @@ section {
     background: url(../images/sun-illustration.jpeg);
 }
 
-.fact-1-image-stars, .fact-2-image-crescent, .fact-3-image-saturn, .fact-4-image-stars2, .fact-5-image-sun {
+.fact-1-image-stars,
+.fact-2-image-crescent,
+.fact-3-image-saturn,
+.fact-4-image-stars2,
+.fact-5-image-sun {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -358,37 +351,37 @@ section {
     text-align: center;
 }
 
-.further-reading-nasa a {
-    
-}
+.further-reading-nasa a {}
 
 .further-reading-nasa a:hover {
     color: purple;
 }
+
 /* --------------- Sign up Form ------*/
 
 .sign-up-form-container {
     display: flex;
     align-items: center;
-  justify-content: center;
-  margin: auto;
+    justify-content: center;
+    margin: auto;
 }
 
 .sign-up-form {
     width: 100%;
     margin: auto;
     padding: 20px;
-    background-color:rgb(72, 7, 72);
+    background-color: rgb(72, 7, 72);
     border-radius: 15px;
     text-align: center;
-    
+
 }
+
 .radio-check-boxes {
     display: grid;
     align-items: center;
-  justify-content: center;
-  margin: auto;
-  padding: 10px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
 }
 
 .drop-down-menu {
@@ -400,7 +393,8 @@ section {
     text-align: left;
 }
 
-.form-title, .form-info {
+.form-title,
+.form-info {
     text-align: center;
 
 }
@@ -410,7 +404,7 @@ section {
 }
 
 .form-button {
-    background-color:rgb(182, 116, 182);
+    background-color: rgb(182, 116, 182);
     margin: 10px;
     color: #fafafa;
 }
@@ -420,7 +414,7 @@ section {
 
 .sign-up-page-content {
     width: 90%;
-    margin:auto auto 10px auto;
+    margin: auto auto 10px auto;
     color: #fafafa;
     background-color: rgba(128, 0, 128, 0.5);
     padding: 15px;
@@ -430,15 +424,15 @@ section {
 .moon-phase-widget-container {
     display: flex;
     align-items: center;
-  justify-content: center;
-  margin: auto;
-  min-width: 250px;
-  
+    justify-content: center;
+    margin: auto;
+    min-width: 250px;
+
 
 }
 
 .moon-phase-widget {
-   padding:20px;
+    padding: 20px;
 }
 
 
@@ -446,7 +440,7 @@ section {
 
 .success-message {
     background-color: #1b1b1b;
-    color:#fafafa;
+    color: #fafafa;
     margin: auto;
     min-height: 350px;
     text-align: center;
@@ -461,7 +455,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-   max-height: 450px;
+    max-height: 450px;
     aspect-ratio: 1;
     margin: auto;
 }
@@ -469,16 +463,16 @@ section {
 /* --------------- Footer ------*/
 
 footer {
-    color:rgb(72, 7, 72);
+    color: rgb(72, 7, 72);
     margin-top: auto;
-    background-color:rgba(182, 116, 182, .8);
+    background-color: rgba(182, 116, 182, .8);
 
 }
 
 .copyright {
     margin: auto;
     text-align: center;
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 @media (min-width: 575px) {
@@ -490,10 +484,12 @@ footer {
 .list-inline-item {
     padding: 10px;
 }
+
 .social-links-continer {
     padding-right: 0;
     padding-left: 0;
 }
+
 .social-links {
     text-align: center;
     margin: 0;
@@ -513,7 +509,5 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color:rgb(72, 7, 72)
+    background-color: rgb(72, 7, 72)
 }
-
-
