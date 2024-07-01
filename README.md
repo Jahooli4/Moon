@@ -76,7 +76,7 @@ The site has been designed to be as user friendly as possible, utilising a class
 
   ## Features
 >- ### index.html
-#### Navigation bar: 
+   #### Navigation bar: 
 
 ![Nav bar and logo](assets/images/readme-images/nav-bar-screenshot.png)
 The nav bar and logo were created using bootstrap columns and inline list items. I have styled them with hover pseudo classes so the user can tell they are active links. The menu item tab also changes colour depending on which page is active so the user knows which they are currently on.
@@ -98,21 +98,25 @@ It made sense to include a few initial facts on the home page to make it clear t
 
 The footer has been designed in a minimalistic way as the only information In felt relevant to include here are the social media icon links. These have been styled to change colour when hovered over to make it clear to the user they are active links. The links open in a new page so users don't get taken away from my site.
 
-### About.html
+### about.html
 
 ![About page screenshot](assets/images/readme-images/about-screenshot.png)
-The about page is the main information source of the site. Here I have compiled a list of FAQ's about the moon. I decided to give the text containers lilac backgrounds to add a pop of colour and added space themed illustrations alongside to add an element of visual interest.
+The about page is the main information source of the site. Here I have compiled a list of FAQ's about the moon. I decided to give the text containers lilac backgrounds to add a pop of colour and added space themed illustrations alongside to add an element of visual interest and break up the blocks of text.
 
+### signup.html
 
+![Sign up page screenshot](assets/images/readme-images/sign-up-page-screenshot.png)
 
+#### Sign up form
 
+My sign up form gives users the oppurtunity to sign up to an email newsletter providing them with the current phase of the moon. This will appeal to moon enthusiasts for both academic and recreational purposes. I decided to include a radio button section so that the user can choose how often they receive updates. I thought just offering daily updates as an option might put off some users as they might feel it would clutter up their inbox. I have also included a drop down menu selector for the user to select which heisphere they are in to ensure they receive an accurate reading of the moon.
+All of the form fields have a 'required' attribute so they cannot be left blank. The email field is also set to email format to ensure users enter a correctly formatted email address.
 
+#### Moon phase widget
 
+To give the user an example of what they are signing to up for I decided to include a moon phase widget that shows the current phase of the moon based on the date. This is also a handy feature for any users just wishing to find out this information without signing up to the newsletter. 
 
+### success.html
 
-
-
-
-
-
-
+![Success page](assets/images/readme-images/success-page-screenshot.png)
+To let the user know they have successfully submitted their information via the sign up form I opted to create an extra page with a success message. I also added a space illustration to add a fun visual element, this ties in nicely with the ones on my about page which I think makes it nice and cohesive.
