@@ -235,3 +235,28 @@ The steps to deploy the project are as follows:
 
 Link to finished site: [The MoonSociety](https://jahooli4.github.io/Moon/)
 
+## Credits
+### Images sources:
+
+> - Carousel image 1: Moon (https://www.pexels.com/photo/super-moon-over-snowcapped-mountain-2361600/)
+> - Carousel image 2: Earthshine (https://science.nasa.gov/moon/moon-phases/#h-earthshine)
+> - Carousel image 3: (https://science.nasa.gov/moon/moon-phases/#h-daytime-moons)
+> - Flip card image 1: (https://www.freepik.com/free-photo/closeup-big-moon-its-full-phase-with-craters-visible-its-edges_24910085.htm#fromView=search&page=5&position=25&uuid=0637bb72-6a64-4fbc-9108-86960b60aba4)
+> - Flip card image 2: (https://www.pexels.com/photo/picture-of-moon-12783510/)
+> - Flip card image 3: (https://www.freepik.com/free-photo/closeup-shot-lunar-eclipse-isolated-black_9282783.htm#fromView=search&page=1&position=16&uuid=0637bb72-6a64-4fbc-9108-86960b60aba4)
+> - Flip card image 4: (https://www.pexels.com/photo/photo-of-the-crescent-moon-12251593/)
+> - About page + success page illustrations: (https://www.freepik.com/free-vector/cute-hand-drawn-galaxy-set-vector_18247609.htm#fromView=search&page=1&position=23&uuid=d1572c0f-9580-40dc-af2d-a14223998d89)
+> - Moon phase widget: (https://moonphase.guide/widget)
+
+### Content and Resources
+
+> - All facts and info sourced from NASA (https://science.nasa.gov/moon/)
+> - Fonts sourced from Google Fonts: (https://fonts.google.com/selection/embed)
+> - Am I responsive screenshots for Readme: (https://ui.dev/amiresponsive?url=https://jahooli4.github.io/Moon/)
+> - Hero image carousel: (https://getbootstrap.com/docs/4.3/components/carousel/)
+> - Flip cards: (https://www.w3schools.com/howto/howto_css_flip_card.asp)
+> - Social media icons sourced from Font awesome: (https://fontawesome.com/icons)
+
+#### Acknowledgments: 
+Thank you to my mentor Alan Bushell for his advice and feedback during the project.
+
