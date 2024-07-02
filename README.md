@@ -138,6 +138,7 @@ To let the user know they have successfully submitted their information via the 
 > - CSS3
 
 ## Technologies used
+> - Bootstrap: I used Bootstrap to help build my site in a responsive layout. (https://getbootstrap.com/docs/5.3/getting-started/)
 > - Google Fonts: The font 'Roboto' was used for the main body of the site. The font 'Acme' was used for the Logo.
 > - Font Awesome: was used to import icons into the footer for the social media links.
 > - Git: I used Gitpod as a code space to create the site from which I pushed my site to Github for deployment.
@@ -227,7 +228,7 @@ The steps to deploy the project are as follows:
 3. In the first dropdown menu labeled Source I selected the branch of the name 'main' from the dropdown.
 4. In the next dropdown menu I left '/root' as the default option.
 5. Selected Save
-6. After 2-3 minute my project was now live
+6. After 2-3 minute my project was live
 
 ![screenshot of correct settings on Github](assets/images/readme-images/deployment-screenshot.png)
 
@@ -256,6 +257,7 @@ Link to finished site: [The MoonSociety](https://jahooli4.github.io/Moon/)
 > - Hero image carousel: (https://getbootstrap.com/docs/4.3/components/carousel/)
 > - Flip cards: (https://www.w3schools.com/howto/howto_css_flip_card.asp)
 > - Social media icons sourced from Font awesome: (https://fontawesome.com/icons)
+> - Favicon: (https://favicon.io/emoji-favicons/crescent-moon/)
 
 #### Acknowledgments: 
 Thank you to my mentor Alan Bushell for his advice and feedback during the project.
